@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Raw source dataset (large)
+PET_IMPORTS_full.csv
+**/PET_IMPORTS_full.csv
+
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.azure/
+credentials.json
+secrets.json
+*secret*
+*credential*
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
